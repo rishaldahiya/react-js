@@ -29,6 +29,7 @@ function App() {
 
   return (
     <>
+    
     <Card cardProps={cardObj.cardArr[0]}/>
     <Card cardProps={cardObj.cardArr[1]}/>
     <Card cardProps={cardObj.cardArr[2]}/>
