@@ -3,6 +3,7 @@ import { useState } from "react";
 function App() {
   const [bgColor, setColor] = useState("black"); //default color
 
+  //updating bg color on buttons click
   const changeColor = (updatedColor) => {
 
     setColor(updatedColor)
